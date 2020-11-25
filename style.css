@@ -420,3 +420,177 @@
     .checked {
         color: orange;
     }
+
+
+    /*---------- Register--------- */
+
+    .register-background{
+        background-color: #BFE9FF;
+    }
+    
+    .register-wrapper{
+        background-color: #FFFFFF;
+        margin-left: 6vw;
+        padding: 50px 150px;
+        width: 40%;
+    }
+    .back-menu{
+        margin-left: -49px;
+    }
+    .back-menu a{
+        font-size: 24px;
+        color: #505050;
+        margin-left: 10px;
+        display: flex;
+        align-items:center;
+    }
+    .back-menu img{
+        margin-right: 7px;
+    }
+
+    .register-container{
+        margin-top: 15px;
+    }
+    .register-container p{
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .register-header{
+        margin-bottom: 20px;
+    }
+    .register-header h1{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 64px;
+    }
+    .already-login {
+        margin-bottom: 10px;
+    }
+    .already-login p{
+        display: inline;
+    }
+    .already-login a{
+        font-size: 17px;
+        color: #41609F;
+        font-weight: 400;
+    }
+    .account-list{
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .account-icon{
+        box-shadow: 0px 2px 8px 4px rgba(80, 80, 80, 0.1);
+        width: 130px;
+        border-radius: 21px;
+        padding: 4px 6px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .account-icon img{
+        padding-right: 10px;
+    }
+
+    .register-container hr{
+        border: 0.5px solid #E1E1E1;
+        margin-bottom: 20px;
+    }
+    
+    .form-register label{
+        display: block;
+        width: 60%;
+    }
+   
+    .form-register input{
+        display: block;
+        width: 100%;
+    }
+
+    .form-register input[type=text],
+    .form-register input[type=email],
+    .form-register input[type=password],
+    .form-register input[type=date],
+    .form-register select {
+        color: #909090;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+    
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* Some browsers will not display the caret when using calc, so we put the fallback first */ 
+        background: url("assets/Icon/dropdown.png") white no-repeat 98.5% !important;
+        background: url("assets/Icon/dropdown.png") white no-repeat calc(100% - 20px) !important; 
+    }
+
+    .term-form input[type=checkbox]{
+        margin-top: 5px;
+    }
+
+    .form-register input[type=submit] {
+        width: 150px;
+        font-size: 18px;
+        background-color: #19B0FF;
+        font-weight: 300;
+        color: white;
+        padding: 8px 20px;
+        margin: 50px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+    .form-register .left{
+        float: left;
+        width: 60%;
+    }
+    .form-register .right{
+        float: right;
+        width: 37%;
+    }
+
+    .form-register .term-form{
+        margin-top: 10px;
+    }
+    .form-register .term-form .left{
+        width: 5%;
+    }
+    .form-register .term-form .right{
+        width: 95%;
+    }
+
+
+/* ------ Login Form------ */
+
+    .login-background{
+        background-color: #BFE9FF;
+    }
+
+    .login-wrapper{
+        float: right;
+        background-color: #FFFFFF;
+        margin-right: 6vw;
+        padding: 50px 150px;
+        width: 40%;
+    }
+
+    .login-wrapper .register-header{
+        margin-bottom: 0;
+    }
+    .login-wrapper .already-login{
+        margin-bottom: 30px;
+    }
+    .login-wrapper .already-account p{
+        margin-bottom: 10px;
+    }
